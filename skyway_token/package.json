@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@skyway-sdk/token": "^1.4.1"
+  }
+}

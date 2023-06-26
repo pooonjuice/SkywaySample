@@ -7,19 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B224BA1B2A46BB3F003DF0CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B224BA1A2A46BB3F003DF0CF /* FirebaseFirestore */; };
+		B224BA1F2A46BD38003DF0CF /* SSRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA1E2A46BD38003DF0CF /* SSRoom.swift */; };
+		B224BA222A46BD77003DF0CF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B224BA212A46BD77003DF0CF /* SwiftyJSON */; };
+		B224BA262A46BE26003DF0CF /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA252A46BE26003DF0CF /* RoomsViewController.swift */; };
+		B224BA282A46C2C7003DF0CF /* CreateTalkRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA272A46C2C7003DF0CF /* CreateTalkRoomViewController.swift */; };
+		B224BA322A46C536003DF0CF /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA302A46C536003DF0CF /* RoomTableViewCell.swift */; };
+		B224BA332A46C536003DF0CF /* RoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B224BA312A46C536003DF0CF /* RoomTableViewCell.xib */; };
+		B224BA362A46C630003DF0CF /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA352A46C630003DF0CF /* FirestoreManager.swift */; };
+		B224BA382A46E8C8003DF0CF /* Skywaymanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA372A46E8C8003DF0CF /* Skywaymanager.swift */; };
+		B224BA3B2A46ED83003DF0CF /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA3A2A46ED83003DF0CF /* UIViewController+Ext.swift */; };
+		B224BA3D2A470019003DF0CF /* UserNameRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA3C2A470019003DF0CF /* UserNameRegisterViewController.swift */; };
+		B224BA3F2A47004D003DF0CF /* UserDefaults+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224BA3E2A47004D003DF0CF /* UserDefaults+Ext.swift */; };
 		B2DCCCE42A4543D000E61A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCCCE32A4543D000E61A41 /* AppDelegate.swift */; };
 		B2DCCCE62A4543D000E61A41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCCCE52A4543D000E61A41 /* SceneDelegate.swift */; };
-		B2DCCCE82A4543D000E61A41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCCCE72A4543D000E61A41 /* ViewController.swift */; };
+		B2DCCCE82A4543D000E61A41 /* TalkRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DCCCE72A4543D000E61A41 /* TalkRoomViewController.swift */; };
 		B2DCCCEB2A4543D000E61A41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DCCCE92A4543D000E61A41 /* Main.storyboard */; };
 		B2DCCCED2A4543D100E61A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DCCCEC2A4543D100E61A41 /* Assets.xcassets */; };
 		B2DCCCF02A4543D100E61A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DCCCEE2A4543D100E61A41 /* LaunchScreen.storyboard */; };
+		B2DCCCFC2A45465700E61A41 /* SkyWayRoom in Frameworks */ = {isa = PBXBuildFile; productRef = B2DCCCFB2A45465700E61A41 /* SkyWayRoom */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B224BA1E2A46BD38003DF0CF /* SSRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSRoom.swift; sourceTree = "<group>"; };
+		B224BA252A46BE26003DF0CF /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		B224BA272A46C2C7003DF0CF /* CreateTalkRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTalkRoomViewController.swift; sourceTree = "<group>"; };
+		B224BA302A46C536003DF0CF /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		B224BA312A46C536003DF0CF /* RoomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomTableViewCell.xib; sourceTree = "<group>"; };
+		B224BA352A46C630003DF0CF /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		B224BA372A46E8C8003DF0CF /* Skywaymanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skywaymanager.swift; sourceTree = "<group>"; };
+		B224BA3A2A46ED83003DF0CF /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		B224BA3C2A470019003DF0CF /* UserNameRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameRegisterViewController.swift; sourceTree = "<group>"; };
+		B224BA3E2A47004D003DF0CF /* UserDefaults+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Ext.swift"; sourceTree = "<group>"; };
 		B2DCCCE02A4543D000E61A41 /* SkywaySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkywaySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DCCCE32A4543D000E61A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2DCCCE52A4543D000E61A41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2DCCCE72A4543D000E61A41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2DCCCE72A4543D000E61A41 /* TalkRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkRoomViewController.swift; sourceTree = "<group>"; };
 		B2DCCCEA2A4543D000E61A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2DCCCEC2A4543D100E61A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2DCCCEF2A4543D100E61A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,12 +54,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B224BA222A46BD77003DF0CF /* SwiftyJSON in Frameworks */,
+				B2DCCCFC2A45465700E61A41 /* SkyWayRoom in Frameworks */,
+				B224BA1B2A46BB3F003DF0CF /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B224BA232A46BD88003DF0CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B224BA252A46BE26003DF0CF /* RoomsViewController.swift */,
+				B2DCCCE72A4543D000E61A41 /* TalkRoomViewController.swift */,
+				B224BA272A46C2C7003DF0CF /* CreateTalkRoomViewController.swift */,
+				B224BA3C2A470019003DF0CF /* UserNameRegisterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B224BA242A46BD99003DF0CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B224BA1E2A46BD38003DF0CF /* SSRoom.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B224BA292A46C4EF003DF0CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B224BA302A46C536003DF0CF /* RoomTableViewCell.swift */,
+				B224BA312A46C536003DF0CF /* RoomTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B224BA342A46C622003DF0CF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B224BA352A46C630003DF0CF /* FirestoreManager.swift */,
+				B224BA372A46E8C8003DF0CF /* Skywaymanager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B224BA392A46ED47003DF0CF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B224BA3A2A46ED83003DF0CF /* UIViewController+Ext.swift */,
+				B224BA3E2A47004D003DF0CF /* UserDefaults+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B2DCCCD72A4543D000E61A41 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +130,11 @@
 			children = (
 				B2DCCCE32A4543D000E61A41 /* AppDelegate.swift */,
 				B2DCCCE52A4543D000E61A41 /* SceneDelegate.swift */,
-				B2DCCCE72A4543D000E61A41 /* ViewController.swift */,
+				B224BA232A46BD88003DF0CF /* ViewController */,
+				B224BA292A46C4EF003DF0CF /* View */,
+				B224BA242A46BD99003DF0CF /* Model */,
+				B224BA342A46C622003DF0CF /* Manager */,
+				B224BA392A46ED47003DF0CF /* Extension */,
 				B2DCCCE92A4543D000E61A41 /* Main.storyboard */,
 				B2DCCCEC2A4543D100E61A41 /* Assets.xcassets */,
 				B2DCCCEE2A4543D100E61A41 /* LaunchScreen.storyboard */,
@@ -83,6 +159,11 @@
 			dependencies = (
 			);
 			name = SkywaySample;
+			packageProductDependencies = (
+				B2DCCCFB2A45465700E61A41 /* SkyWayRoom */,
+				B224BA1A2A46BB3F003DF0CF /* FirebaseFirestore */,
+				B224BA212A46BD77003DF0CF /* SwiftyJSON */,
+			);
 			productName = SkywaySample;
 			productReference = B2DCCCE02A4543D000E61A41 /* SkywaySample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,11 @@
 				Base,
 			);
 			mainGroup = B2DCCCD72A4543D000E61A41;
+			packageReferences = (
+				B2DCCCFA2A45465700E61A41 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+				B224BA192A46BB3F003DF0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B224BA202A46BD77003DF0CF /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = B2DCCCE12A4543D000E61A41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B224BA332A46C536003DF0CF /* RoomTableViewCell.xib in Resources */,
 				B2DCCCF02A4543D100E61A41 /* LaunchScreen.storyboard in Resources */,
 				B2DCCCED2A4543D100E61A41 /* Assets.xcassets in Resources */,
 				B2DCCCEB2A4543D000E61A41 /* Main.storyboard in Resources */,
@@ -138,9 +225,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2DCCCE82A4543D000E61A41 /* ViewController.swift in Sources */,
+				B224BA382A46E8C8003DF0CF /* Skywaymanager.swift in Sources */,
+				B2DCCCE82A4543D000E61A41 /* TalkRoomViewController.swift in Sources */,
+				B224BA3B2A46ED83003DF0CF /* UIViewController+Ext.swift in Sources */,
 				B2DCCCE42A4543D000E61A41 /* AppDelegate.swift in Sources */,
+				B224BA262A46BE26003DF0CF /* RoomsViewController.swift in Sources */,
+				B224BA322A46C536003DF0CF /* RoomTableViewCell.swift in Sources */,
+				B224BA282A46C2C7003DF0CF /* CreateTalkRoomViewController.swift in Sources */,
+				B224BA1F2A46BD38003DF0CF /* SSRoom.swift in Sources */,
+				B224BA3F2A47004D003DF0CF /* UserDefaults+Ext.swift in Sources */,
 				B2DCCCE62A4543D000E61A41 /* SceneDelegate.swift in Sources */,
+				B224BA362A46C630003DF0CF /* FirestoreManager.swift in Sources */,
+				B224BA3D2A470019003DF0CF /* UserNameRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,14 +383,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6Q8L878VGF;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SkywaySample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラ使用します";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "マイク使用します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,14 +412,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6Q8L878VGF;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SkywaySample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラ使用します";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "マイク使用します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +456,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B224BA192A46BB3F003DF0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		B224BA202A46BD77003DF0CF /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B2DCCCFA2A45465700E61A41 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/skyway/ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B224BA1A2A46BB3F003DF0CF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B224BA192A46BB3F003DF0CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B224BA212A46BD77003DF0CF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B224BA202A46BD77003DF0CF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		B2DCCCFB2A45465700E61A41 /* SkyWayRoom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2DCCCFA2A45465700E61A41 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SkyWayRoom;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2DCCCD82A4543D000E61A41 /* Project object */;
 }

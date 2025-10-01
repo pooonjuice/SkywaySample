@@ -2,7 +2,7 @@
 //  RoomsViewController.swift
 //  SkywaySample
 //
-//  Created by Ryo Tabuchi on 2023/06/24. test
+//  Created by Ryo Tabuchi on 2023/06/24. test test
 //
 
 import UIKit
